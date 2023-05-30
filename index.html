@@ -1,45 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Timetable</title>
+    <title>My Awesome Timetable</title>
     <style>
         body {
-            background-color: #ffffcc;
-            font-family: Comic Sans MS, cursive;
-            margin: 50px;
+            background-image: url('https://media.tenor.com/KMxrZ-A6ev4AAAAC/nice-smack.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
         h1 {
-            color: red;
+            color: #ffffff;
             text-align: center;
-            text-decoration: underline;
+            padding-top: 50px;
         }
 
-        table {
-            border-collapse: collapse;
+        .logo {
+            text-align: center;
             margin-top: 30px;
         }
 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            color: #ffffff;
+        }
+
         th, td {
-            padding: 10px;
+            padding: 12px;
             text-align: center;
-            border: 1px solid black;
+            border-bottom: 1px solid #ffffff;
         }
 
         th {
-            background-color: #ff9999;
-            font-size: 20px;
+            background-color: #0000ff;
             font-weight: bold;
         }
 
         td {
-            background-color: #ffff99;
-            font-size: 16px;
+            background-color: #000000;
+        }
+
+        .contacts {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            color: #ffffff;
+            font-size: 18px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>My Shitty Timetable</h1>
+    <h1>My Awesome Timetable</h1>
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
 
     <table>
         <tr>
@@ -91,5 +113,11 @@
             <td>History</td>
         </tr>
     </table>
+
+    <div class="contacts">
+        <p>Contacts:</p>
+        <p>Email: example@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </div>
 </body>
 </html>
